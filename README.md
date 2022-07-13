@@ -10,8 +10,29 @@ A python-bitrate http server code by Jim
 git clone 
 ```
 
-切換到資料夾內
++ 切換到資料夾內
+```
+cd python-srt-bitrate
+```
 
+
++ 更改為可執行檔
+```
+chmod 777 b3-2
+```
+
++ 開啟9898port
+```
+sudo ufw allow 9898
+```
+
+
++ 進入tmux
+```
+tmux
+```
+
++ 執行
 ```
 ./b3-2 <雲端SRT伺服器ip>
 ```
